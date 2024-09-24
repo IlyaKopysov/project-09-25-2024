@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  max-width: 1220px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin: 0 auto;
+}
+
+.header {
+  background: url(../img/bg.png) no-repeat center / cover;
+  height: 100vh;
+  &__main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  &__logo-text-block {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  &__logo-text {
+    font-size: 24px;
+    color: white;
+  }
+  &__btn-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+  }
+  &__btn {
+    background-color: #c092d9;
+    padding: 10px 20px;
+    border-radius: 12px;
+  }
+  &__wrap {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  &__text-img-block {
+    text-align: center;
+  }
+  &__boxik {
+    display: flex;
+    align-items: center;
+
+    margin-top: 20px;
+  }
+  &__sub-btn {
+    position: relative;
+    left: 65px;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 10px;
+    list-style: none;
+  }
+  &__btn-bl {
+    display: inline;
+    color: white;
+    background-color: #5e7fe4;
+    padding: 10px 20px;
+    border-radius: 16px;
+    font-size: 24px;
+    margin-top: 0px;
+    width: 400px;
+    border: none;
+    cursor: pointer;
+  }
+  &__title {
+    color: white;
+    font-size: 36px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    font-weight: 300;
+    margin: 0 auto;
+    width: 468px;
+  }
+  &__text {
+    font-weight: 300;
+    font-size: 24px;
+    color: white;
+    text-align: left;
+    width: 678px;
+  }
+  &__text-block {
+    max-width: 678px;
+    height: 100px;
+    padding-top: 20px;
+    padding-right: 15px;
+  }
+  &__logo img {
+    border-radius: 15px;
+  }
+}
+
+.header-line {
+  margin-top: -120px;
+  background: #cb97ee center center / cover;
+  height: 20vh;
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+  }
+  &__text {
+    font-size: 36px;
+    color: white;
+  }
+}
